@@ -237,7 +237,8 @@ namespace CodeProject.Win32
         WM_DDE_DATA,
         WM_DDE_REQUEST,
         WM_DDE_POKE,
-        WM_DDE_EXECUTE
+        WM_DDE_EXECUTE,
+        WM_1236 = 0xfff3,
     }
 
 	
