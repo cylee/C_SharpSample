@@ -1,6 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using System.IO;
 
 
 namespace CodeProject.Win32
@@ -239,6 +240,7 @@ namespace CodeProject.Win32
         WM_DDE_POKE,
         WM_DDE_EXECUTE,
         WM_1236 = 0xfff3,
+		WM_1237 = 0xfff4,
     }
 
 	
